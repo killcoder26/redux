@@ -1,15 +1,15 @@
 import './App.css';
-import { Provider } from 'react-redux';
-import store from './store';
+import { useDispatch } from 'react-redux';
 import Mycomp from './components/Mycomp';
 
 function App() {
+  const dispatch = useDispatch();
   return (
-    <Provider store={store}>
-      <div className="App">
-        <Mycomp />
-      </div>
-    </Provider>
+
+    <div className="App">
+
+    </div>
+
   );
 }
 

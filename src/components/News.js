@@ -1,13 +1,13 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 
-function Mycomp() {
+function News() {
     const state = useSelector((state) => state);
     return (
         <div><h1>
-            Money:{state}
+
         </h1> </div>
     )
 }
 
-export default Mycomp
+export default News
